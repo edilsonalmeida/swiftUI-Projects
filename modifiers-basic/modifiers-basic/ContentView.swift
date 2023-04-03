@@ -10,17 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            
             Image(systemName: "laptopcomputer.and.iphone")
-                .imageScale(.large)
                 .foregroundColor(.gray)
-                .font(.system(size: 60))
+                .font(.system(size: 60)) //System images (SF Symbols) are similar to fonts.
+            
             Text("Olá, Edilson!")
-                .font(.largeTitle)
-                .fontWeight(.semibold)
-                .foregroundColor(.orange)
-                .shadow(radius: 10)
-                .frame(width: 200, height: 200)
-                .background(.gray)
+                .font(.largeTitle) //size
+                .fontWeight(.semibold) // Weight
+                .foregroundColor(.orange) // Color
+                .shadow(radius: 10) // Shadow
+                .frame(width: 200, height: 200) //Box Frame
+                .background(.gray) // Color of box frame
+            
+            //The order of modifiers matters, next one affects previous modifiers
+            
         }
         .padding()
     }
