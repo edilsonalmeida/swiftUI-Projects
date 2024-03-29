@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		CF8DB1002BB691E100E5924E /* TextViewPropertiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB0FF2BB691E100E5924E /* TextViewPropertiesApp.swift */; };
-		CF8DB1022BB691E100E5924E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB1012BB691E100E5924E /* ContentView.swift */; };
 		CF8DB1042BB691E200E5924E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8DB1032BB691E200E5924E /* Assets.xcassets */; };
 		CF8DB1072BB691E200E5924E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8DB1062BB691E200E5924E /* Preview Assets.xcassets */; };
+		CF8DB10E2BB6927A00E5924E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB10D2BB6927A00E5924E /* ContentView.swift */; };
+		CF8DB1162BB6929600E5924E /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB10F2BB6929500E5924E /* Markdown.swift */; };
+		CF8DB1172BB6929600E5924E /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB1102BB6929500E5924E /* Links.swift */; };
+		CF8DB1182BB6929600E5924E /* Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB1112BB6929500E5924E /* Initializers.swift */; };
+		CF8DB1192BB6929600E5924E /* Monospaced.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB1122BB6929500E5924E /* Monospaced.swift */; };
+		CF8DB11A2BB6929600E5924E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB1132BB6929500E5924E /* Utils.swift */; };
+		CF8DB11B2BB6929600E5924E /* Dates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB1142BB6929600E5924E /* Dates.swift */; };
+		CF8DB11C2BB6929600E5924E /* Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DB1152BB6929600E5924E /* Interpolation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF8DB0FC2BB691E100E5924E /* TextViewProperties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewProperties.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8DB0FF2BB691E100E5924E /* TextViewPropertiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPropertiesApp.swift; sourceTree = "<group>"; };
-		CF8DB1012BB691E100E5924E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF8DB1032BB691E200E5924E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8DB1062BB691E200E5924E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF8DB10D2BB6927A00E5924E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../../../swiftUI-Projects/TextView Properties/TextView Properties/ContentView.swift"; sourceTree = "<group>"; };
+		CF8DB10F2BB6929500E5924E /* Markdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
+		CF8DB1102BB6929500E5924E /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		CF8DB1112BB6929500E5924E /* Initializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initializers.swift; sourceTree = "<group>"; };
+		CF8DB1122BB6929500E5924E /* Monospaced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monospaced.swift; sourceTree = "<group>"; };
+		CF8DB1132BB6929500E5924E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CF8DB1142BB6929600E5924E /* Dates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dates.swift; sourceTree = "<group>"; };
+		CF8DB1152BB6929600E5924E /* Interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,15 @@
 		CF8DB0FE2BB691E100E5924E /* TextViewProperties */ = {
 			isa = PBXGroup;
 			children = (
+				CF8DB1142BB6929600E5924E /* Dates.swift */,
+				CF8DB1112BB6929500E5924E /* Initializers.swift */,
+				CF8DB1152BB6929600E5924E /* Interpolation.swift */,
+				CF8DB1102BB6929500E5924E /* Links.swift */,
+				CF8DB10F2BB6929500E5924E /* Markdown.swift */,
+				CF8DB1122BB6929500E5924E /* Monospaced.swift */,
+				CF8DB1132BB6929500E5924E /* Utils.swift */,
+				CF8DB10D2BB6927A00E5924E /* ContentView.swift */,
 				CF8DB0FF2BB691E100E5924E /* TextViewPropertiesApp.swift */,
-				CF8DB1012BB691E100E5924E /* ContentView.swift */,
 				CF8DB1032BB691E200E5924E /* Assets.xcassets */,
 				CF8DB1052BB691E200E5924E /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8DB1022BB691E100E5924E /* ContentView.swift in Sources */,
 				CF8DB1002BB691E100E5924E /* TextViewPropertiesApp.swift in Sources */,
+				CF8DB1162BB6929600E5924E /* Markdown.swift in Sources */,
+				CF8DB10E2BB6927A00E5924E /* ContentView.swift in Sources */,
+				CF8DB11A2BB6929600E5924E /* Utils.swift in Sources */,
+				CF8DB1182BB6929600E5924E /* Initializers.swift in Sources */,
+				CF8DB11C2BB6929600E5924E /* Interpolation.swift in Sources */,
+				CF8DB1192BB6929600E5924E /* Monospaced.swift in Sources */,
+				CF8DB1172BB6929600E5924E /* Links.swift in Sources */,
+				CF8DB11B2BB6929600E5924E /* Dates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
